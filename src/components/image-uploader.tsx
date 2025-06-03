@@ -143,7 +143,7 @@ export default function ImageUploader({ onImageUpload, selectedImage }: ImageUpl
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
         <h4 className="font-medium text-blue-900 mb-2">Tips for best results:</h4>
         <ul className="text-sm text-blue-800 space-y-1">
-          <li>• Use a high-resolution image (at least 600x600 pixels)</li>
+          <li>• Use a high-resolution image</li>
           <li>• Ensure good lighting with no shadows</li>
           <li>• Face the camera directly with a neutral expression</li>
           <li>• Use a plain white or light-colored background</li>

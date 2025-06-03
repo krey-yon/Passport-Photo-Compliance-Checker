@@ -80,7 +80,9 @@ ${JSON.stringify(analysisData, null, 2)}
 
 **TASK:** Analyze this passport photo data against ${country.name}'s official guidelines and provide a comprehensive compliance assessment.
 
-**COUNTRY-SPECIFIC GUIDELINES TO CONSIDER:**
+**Analyze the OCR data or ocrResult check all details even other details in that data check that data is required or not in COUNTRY-SPECIFIC GUIDELINES **
+
+**COUNTRY-SPECIFIC GUIDELINES TO CONSIDER NOTE: THEY ARE NOT ABSOLUTE YOU CAN YOU USE YOUR KNOWLEDGE AND INFORMATION TO ADD INTO THIS DETAILS SO THE OVERALL TOOL WILL BE MORE USEFULL :**
 
 **India Guidelines:** Name must be visible if present, neutral expression, plain light background, face 70-80% of image height, no glasses preferred, eyes open and visible, head straight.
 
@@ -107,6 +109,8 @@ ${JSON.stringify(analysisData, null, 2)}
 8. Head Position - Assess head orientation and straightness
 9. Text/Data Requirements - Check OCR data compliance for country
 10. Glasses/Accessories - Evaluate compliance with eyewear rules
+
+**Important Note : you can add any other category to evaluate too depending upon country use your knowledge and other important note is if there is any country which required name or date or any other info on passport and that data is not present in the ocrResult or OCR DATA's any field including other than give user warning/recommendation/suggestion that this particular country want this data on the photo but if that selected country not required these data the pass this field also you can reduce the overall score based on this thing significantly**
 
 **SCORING CRITERIA:**
 - Face Detection: 15% weight
